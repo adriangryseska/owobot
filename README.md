@@ -10,4 +10,5 @@ Key features include:
 - Music notifications upon CAPTCHA detection.
 - Pause/Resume functionality using keyboard input.
 - Multi-threading for running CAPTCHA checks and typing commands simultaneously.
-This bot is useful for automating tasks in environments where CAPTCHA or user input is required intermittently.
+
+Important Note: This bot is intended solely for educational purposes and to demonstrate the use of automation and CAPTCHA detection in Python. I am not responsible for any consequences, such as being banned or violating the rules of platforms like OwO Bot or others, as a result of using this script. Please ensure you are complying with all applicable terms of service and rules.
