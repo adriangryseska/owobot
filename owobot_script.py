@@ -22,7 +22,7 @@ def sh_ntf():
         tk.Label(win, text="Close this, solve captcha, and press 'Down Arrow' to continue!").pack()
         pgm.init()
         pgm.mixer.init()
-        pgm.mixer.music.load("C:/Users/ASUS/Documents/17an/Backsound/Heart of Courage.mp3") #Ubah dan sesuaikan lokasi lagu atau suara notifikasi
+        pgm.mixer.music.load("C:/***/***/***.mp3") #Ubah dan sesuaikan lokasi lagu atau suara notifikasi
         pgm.mixer.music.play()
         scr_status, cpt_dtc = True, True
         win.mainloop()
@@ -97,12 +97,6 @@ def chk_cpt():
                     print(f"\n{f.YELLOW}{'='*23}\n🎯 Captcha Detected! 🚫\nSolve the Captcha & Restart the bot!\n{'='*23}")
                     sh_ntf()
                     scr_status = True
-                
-                # Cek jika kedua teks duel terdeteksi secara bersamaan
-                elif all(dt in sc_text for dt in ["Agry", "challenges you to a duel!", "maymo", "gfish", "doghug"]):
-                    t.sleep(3)  # Delay 3 detik sebelum mengetik "wab"
-                    pg.typewrite("wab")
-                    pg.press('enter')
                     
             t.sleep(1)
     except Exception as ex:
